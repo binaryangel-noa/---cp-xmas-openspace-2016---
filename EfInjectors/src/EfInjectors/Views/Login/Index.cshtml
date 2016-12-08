@@ -1,0 +1,11 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model EfInjectors.Controllers.LoginModel
+<form asp-controller="Login" asp-action="Index" method="post">
+    <p>User</p>
+    @Html.EditorFor(m => m.User)
+    <input type="submit" />
+</form>

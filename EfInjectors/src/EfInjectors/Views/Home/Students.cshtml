@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Students";
+}
+@model List<EfInjectors.Models.Student>
+<h2>@ViewData["Title"].</h2>
+
+<table>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.LastName
+            </td>
+            <td>
+                @item.TenantId
+            </td>
+        </tr>
+    }
+</table>
