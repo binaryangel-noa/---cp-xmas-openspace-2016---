@@ -2,6 +2,20 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
+## Topic related websites
+pwablle
+https://pwablle.azurewebsites.net/
+
+Bluetooth LE
+http://blog.bluetooth.com/a-developers-guide-to-bluetooth
+
+Progressive Web Apps:
+https://developers.google.com/web/progressive-web-apps
+
+Service Worker:
+https://developers.google.com/web/fundamentals/primers/service-workers/
+https://serviceworke.rs/ (Cookbook)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
